@@ -31,6 +31,8 @@ class Wp_Trucking_Board_Activator {
 	 */
 	public static function activate() {
 
+	    //TODO:: Implement table build outs for Jobs, Locations, Staff, and Settings
+
 	}
 
 }

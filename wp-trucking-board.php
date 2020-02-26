@@ -55,6 +55,11 @@ function deactivate_wp_trucking_board() {
 	Wp_Trucking_Board_Deactivator::deactivate();
 }
 
+/**
+ * Include Autoload from Composer
+ */
+require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+
 register_activation_hook( __FILE__, 'activate_wp_trucking_board' );
 register_deactivation_hook( __FILE__, 'deactivate_wp_trucking_board' );
 

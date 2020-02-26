@@ -1,0 +1,12 @@
+{
+    "name": "brianlogan/wp-trucking-board",
+    "authors": [
+        {
+            "name": "Brian Logan",
+            "email": "brianldj@gmail.com"
+        }
+    ],
+    "require": {
+        "tareq1988/wp-eloquent": "^1.0"
+    }
+}
